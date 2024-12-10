@@ -25,8 +25,8 @@
 # ```
 #
 # we want to find all the rules that have the same "fileIn"
-# specified by the command line argument and which have a "search"
-# that looks like "from:$EMAIL_ADDRESS" for some email address
+# and which have a "search"
+# that looks like "from:$EMAIL_ADDRESS" for some email address (or multiple)
 # and then collapse them into a single rule that looks like
 # "from:$EMAIL_ADDRESS1 OR from:$EMAIL_ADDRESS2"
 # All other rules should be passed through.
